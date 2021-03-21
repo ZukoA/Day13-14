@@ -1,0 +1,19 @@
+h1 {
+
+}
+main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+}
+div {
+    display: grid;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+p {
+
+}
