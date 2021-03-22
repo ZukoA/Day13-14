@@ -1,19 +1,51 @@
-h1 {
-
+body {
+    position: relative;
+    margin: auto;
+    width: 900px;
 }
-main {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-
+h1 {
+   text-align: center;
+   color: #fff;
 }
 div {
     display: grid;
+    width: 200px;
+    height:auto;
+    float: left;
+    margin: 0;
+    background-color: black;
+}
+.divnewtab {
+    width: 200px;
+}
+.firstDiv {
+    margin-right: 20px;
+}
+.secondDiv {
+    margin-right: 20px;
+}
+.thirdDiv {
+    margin-right: 20px;
+}
+.fourthDiv {
+    margin-right: 20px;
 }
 img {
+    display: grid;
     width: 200px;
-    height: auto;
+    height: 100%;
+    cursor: pointer;
+}
+img:hover {
+    opacity: 0.6; transition: 0.3s
+}
+.img.newtab {display: grid;
+    width: 500px;
+    height: 500px;
 }
 p {
-
+  text-align: center;
+}
+.sports {
+    text-transform: uppercase;
 }
